@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MP SOLAR TECH – Home</title>
+
+  <!--icon cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header id="navbar">
+  <div class="logo">
+    <img src="img/logo.png" style="cursor: pointer;" onclick="location.href='index.html'" alt="MP Solar Tech">
+  </div>
+
+  <nav class="nav-links">
+    <ul>
+      <li><a href="index.html">Home</a></li>  
+      <li><a href="about.html">About Us</a></li>
+
+      <!-- DROPDOWN -->
+      <li class="dropdown">
+        <a href="our-services.html" class="dropdown-toggle">
+          Our Services <i class="fa-solid fa-angle-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a href="residential.html">Residential Solar Solutions</a></li>
+          <li><a href="commercial.html">Commercial Solar Solutions</a></li>
+          <li><a href="industrial.html">Industrial Solar Solutions</a></li>
+        </ul>
+      </li>
+
+      <li><a href="subsidy.html">Subsidy</a></li>
+      <li><a href="gallery.html">Gallery </a></li>
+
+      <!-- Corrected link to local calculator page -->
+      <li><a href="calculator.html">Calculator</a></li>
+
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HAMBURGER -->
+  <div id="menu-icon" class="menu-icon">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</header>
+
+
+<!-- SIDEBAR MENU -->
+<div id="sidebar" class="sidebar">
+  <i class="fa-solid fa-xmark close-btn"></i>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>  
+    <li><a href="about.html">About Us</a></li>
+
+    <li class="dropdown">
+      <a class="dropdown-toggle">
+        Our Services <i class="fa-solid fa-angle-down"></i>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="residential.html">Residential Solar Solutions</a></li>
+        <li><a href="commercial.html">Commercial Solar Solutions</a></li>
+        <li><a href="industrial.html">Industrial Solar Solutions</a></li>
+      </ul>
+    </li>
+
+    <li><a href="subsidy.html">Subsidy</a></li>
+    <li><a href="gallery.html">Gallery </a></li>
+
+    <!-- Corrected sidebar link to local calculator page -->
+    <li><a href="calculator.html">Calculate Solar</a></li>
+
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</div>
+
+
+
+<!-- hero banner home -->
+<section class="slider">
+
+  <div class="slides">
+    <img src="img/banner1.jpeg" class="slide active">
+    <img src="img/banner2.jpeg" class="slide">
+    <img src="img/banner3.jpeg" class="slide">
+  </div>
+
+  <!-- Overlay full background -->
+  <div class="slider-overlay"></div>
+
+  <!-- hero text -->
+  <div class="hero-content">
+    <h1>Welcome to MP Solar Tech</h1>
+    <p>We provide high-quality solar solutions for homes, businesses, and industries.</p>
+    <a href="#contact" class="hero-btn">Contact Us</a>
+  </div>
+</section>
+
+
+
+  <!-- about us section -->
+  <section class="about-section">
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about-container">
+
+        <!-- LEFT SIDE CONTENT -->
+        <div class="about-content">
+            <h3>Powering a Greener Tomorrow</h3>
+            <p>
+                MP SOLAR TECH is a trusted name in renewable energy innovation. 
+                We provide end-to-end solar power solutions for residential, commercial, and industrial clients—helping 
+                you achieve energy independence, reduce electricity costs, and contribute to a cleaner planet.
+            </p>
+
+            <p>
+                With deep expertise in solar technology, we design, install, and maintain high-efficiency solar systems 
+                tailored to meet unique energy needs. Our commitment to quality and sustainable energy makes us a leading 
+                choice for modern solar solutions across India.
+            </p>
+
+            <!-- VIEW MORE BUTTON -->
+            <a href="about.html" class="view-btn">View More</a>
+        </div>
+
+        <!-- RIGHT SIDE IMAGE -->
+        <div class="about-image">
+            <img src="img/homeabout.jpeg" alt="About Bharat Solar">
+        </div>
+    </div>
+</section>
+
+
+<!-- SERVICES SECTION -->
+<section class="services-section">
+  <h2 class="main-title">OUR SERVICES</h2>
+
+  <div class="services-grid">
+
+    <!-- Card 1 -->
+    <div class="service-card">
+      <img src="img/residental.jpg" alt="Residential Solar">
+      <h3>Residential Solar Solution</h3>
+      <p>
+        Power your home with efficient and long-lasting solar solutions,
+        designed to reduce bills and increase energy independence.
+      </p>
+      <a href="residential.html" class="read-btn">Read More</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="service-card">
+      <img src="img/commercial.jpg" alt="Commercial Solar">
+      <h3>Commercial Solar Solution</h3>
+      <p>
+        Smart solar systems tailored for commercial buildings, factories,
+        and business infrastructures for maximum cost savings.
+      </p>
+      <a href="commercial.html" class="read-btn">Read More</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="service-card">
+      <img src="img/domestic.jpeg" alt="Industrial Solar">
+      <h3>Industrial Solar Solution</h3>
+      <p>
+        Affordable and efficient solar systems designed for everyday home needs,
+        ensuring reliable and clean energy usage.
+      </p>
+      <a href="industrial.html" class="read-btn">Read More</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ADVANCED SOLAR SYSTEM SECTION -->
+<section class="solar-system-section">
+
+  <!-- Off-Grid Solar -->
+  <div class="solar-row">
+    <div class="solar-left">
+      <img src="img/off.webp" class="solar-img" alt="Off Grid Solar System">
+    </div>
+
+    <div class="solar-right">
+      <h2>Off-Grid Solar System</h2>
+      <p>
+        Off-grid solar systems operate independently from the main electricity grid, 
+        making them the best choice for remote locations or areas with frequent power cuts. 
+        These systems store solar energy in batteries and ensure 24/7 electricity availability. 
+        They provide complete energy independence and help reduce long-term electricity expenses 
+        while promoting clean and sustainable energy usage.
+      </p>
+    </div>
+  </div>
+
+  <!-- On-Grid Solar -->
+  <div class="solar-row">
+    <div class="solar-left">
+      <img src="img/on.webp" class="solar-img" alt="On Grid Solar System">
+    </div>
+
+    <div class="solar-right">
+      <h2>On-Grid Solar System</h2>
+      <p>
+        On-grid solar systems connect directly with the government electricity grid. 
+        These systems allow you to save heavily on electricity bills and even earn 
+        from excess power through net-metering. They are ideal for homes and businesses 
+        with steady grid supply and offer the highest financial savings compared to 
+        other types of solar systems.
+      </p>
+    </div>
+  </div>
+
+  <!-- Hybrid Solar -->
+  <div class="solar-row">
+    <div class="solar-left">
+      <img src="img/hy.webp" class="solar-img" alt="Hybrid Solar System">
+    </div>
+
+    <div class="solar-right">
+      <h2>Hybrid Solar System</h2>
+      <p>
+        Hybrid solar systems combine the benefits of both on-grid and off-grid technologies. 
+        They stay connected to the grid while also storing extra energy in batteries. 
+        This ensures uninterrupted electricity even during power failures. 
+        Hybrid systems are perfect for locations where grid power is available but unreliable.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+ <!-- WHY SOLAR SECTION -->
+<section class="why-solar">
+    <h2 class="why-title">Why Solar? Go Green Go Solar</h2>
+
+    <div class="solar-cards">
+
+        <!-- CARD 1 -->
+        <div class="solar-card">
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>Save & Earn Money</h3>
+            <p>solar power systems help reduce</p>
+            <div class="wave"></div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="solar-card">
+            <i class="fas fa-bolt"></i>
+            <h3>Free Power</h3>
+            <p>solar panels have 25+ year life. with</p>
+            <div class="wave"></div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="solar-card">
+            <i class="fas fa-sync-alt"></i>
+            <h3>Highest Returns</h3>
+            <p>investment in solar plants is risk free.</p>
+            <div class="wave"></div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="solar-card">
+            <i class="fas fa-crosshairs"></i>
+            <h3>Increasing Power Cost</h3>
+            <p>investment in solar system today will</p>
+            <div class="wave"></div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="solar-card">
+            <i class="fas fa-leaf"></i>
+            <h3>Environment Friendly</h3>
+            <p>solar power is clean, helps reduce</p>
+            <div class="wave"></div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="solar-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Improve Asset Value</h3>
+            <p>solar power systems improve the</p>
+            <div class="wave"></div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- solar journey section -->
+<section class="solar-journey">
+    <h2 class="section-title">Our Solar Journey With You</h2>
+
+    <div class="journey-container">
+
+        <!-- Consultation Box -->
+        <div class="journey-box">
+            <h3>Consultation</h3>
+            <p>
+                MP SOLAR TECH offers expert consultation services to guide individuals and 
+                businesses in adopting solar energy efficiently. Our specialists provide in-depth advice 
+                on system planning, panel selection, energy-saving strategies, and financial benefits.
+            </p>
+        </div>
+
+        <!-- Design  Box -->
+        <div class="journey-box">
+            <h3>Design & Installation</h3>
+            <p>
+                At MP SOLAR TECH, we deliver custom-designed solar energy systems tailored to 
+                meet your unique power needs. Our experienced team ensures seamless and efficient installation, 
+                maximizing energy output while reducing long-term costs.
+            </p>
+        </div>
+
+        <!-- Service  Box -->
+        <div class="journey-box">
+            <h3>Service & Maintenance</h3>
+            <p>
+                Keep your solar systems performing at their best with Bharat MP SOLAR TECH  is a  reliable 
+                service and maintenance solutions. We offer regular system checkups, troubleshooting, and repairs 
+                to ensure consistent energy efficiency and durability.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- gallery section  -->
+<section class="gallery-section">
+    <h2 class="gallery-title">OUR GALLERY</h2>
+
+    <div class="gallery">
+        <img src="img/pic10.jpeg" class="gallery-img" alt="">
+        <img src="img/pic2.jpeg" class="gallery-img" alt="">
+        <img src="img/pic3.jpeg" class="gallery-img" alt="">
+        <img src="img/pic4.jpeg" class="gallery-img" alt="">
+        <img src="img/pic5.jpeg" class="gallery-img" alt="">
+        <img src="img/pic6.jpeg" class="gallery-img" alt="">
+        <img src="img/pic7.jpeg" class="gallery-img" alt="">
+        <img src="img/pic8.jpeg" class="gallery-img" alt="">
+    </div>
+
+    <!-- Show More Button -->
+    <div class="gallery-btn-box">
+        <a href="gallery.html" class="gallery-btn">Show More</a>
+    </div>
+</section>
+
+
+
+<!-- Home solar banner section -->
+<section class="hero-solar-banner">
+    <div class="hero-solar-container">
+        <img src="img/1-3.jpg.jpeg" alt="Solar Banner">
+    </div>
+</section>
+
+
+
+<!-- Testimonial Section -->
+<section class="solar-testimonials">
+
+  <!-- Title + Arrows Row -->
+  <div class="title-row">
+    <h2 class="testi-title">What Our Customers Say</h2>
+
+    <div class="arrow-group">
+      <button class="arrow left" onclick="slideLeft()">❮</button>
+      <button class="arrow right" onclick="slideRight()">❯</button>
+    </div>
+  </div>
+
+  <!-- Slider -->
+  <div class="testi-slider">
+    <div class="testi-track" id="testiTrack">
+
+      <div class="testi-card">
+        <h3>Rohit Sharma</h3>
+        <p class="service">Residential Solar Installation</p>
+        <p class="review">
+          “We chose MP Solar Tech for a 25kW solar setup. Excellent service and fast installation.”
+        </p>
+      </div>
+
+      <div class="testi-card">
+        <h3>Anjali Verma</h3>
+        <p class="service">Commercial Solar Solution</p>
+        <p class="review">
+          “Maintenance service improved our system performance noticeably.”
+        </p>
+      </div>
+
+      <div class="testi-card">
+        <h3>Arun Mehta</h3>
+        <p class="service">Solar Panel Maintenance</p>
+        <p class="review">
+          “Solar water pump solution helped our farming business a lot.”
+        </p>
+      </div>
+
+      <div class="testi-card">
+        <h3>Priya Soni</h3>
+        <p class="service">Solar Water Pump System</p>
+        <p class="review">
+          “MP Solar Tech provides reliable support and quality work.”
+        </p>
+      </div>
+
+      <!-- Duplicate for Infinite Loop -->
+      <div class="testi-card">
+        <h3>Rohit Sharma</h3>
+        <p class="service">Residential Solar Installation</p>
+        <p class="review">
+          “We chose MP Solar Tech for a 25kW solar setup. Excellent service.”
+        </p>
+      </div>
+
+      <div class="testi-card">
+        <h3>Anjali Verma</h3>
+        <p class="service">Commercial Solar Solution</p>
+        <p class="review">
+          “Maintenance service improved our solar system.”
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- Enquiry Form Box -->
+<section class="enquiry-sec">
+  <div class="enquiry-box">
+    <span class="close-enquiry">&times;</span>
+
+    <div class="enquiry-container">
+      <h2>Send Us an Enquiry</h2>
+      <p>Fill out the form and our team will get back to you shortly with the best solar solution.</p>
+
+      <form class="enquiry-form">
+        
+        <label>Name</label>
+        <input type="text" placeholder="Enter your Name" required>
+
+        <label>Mobile No.</label>
+        <input type="text" placeholder="Enter your Mobile Number" required>
+
+        <label>Address</label>
+        <input type="text" placeholder="Enter your Address" required>
+
+        <label>Monthly Bill</label>
+        <input type="text" placeholder="Enter your Monthly Electricity Bill" required>
+
+        <label>Message</label>
+        <textarea placeholder="Write your Message" rows="5" required></textarea>
+
+        <button type="submit" class="send-btn">Send</button>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.querySelector(".enquiry-sec").style.display = "flex";
+    }, 3000);
+  });
+
+  // close buuton
+  document.querySelector(".close-enquiry").addEventListener("click", () => {
+    document.querySelector(".enquiry-sec").style.display = "none";
+  });
+</script>
+
+
+
+
+
+
+
+<!-- Floating WhatsApp & Call Buttons -->
+<div class="floating-icons">
+  
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/8871622893" target="_blank" class="float-btn whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Call Button -->
+  <a href="tel:+919752830472" class="float-btn call" id="callBtn">
+    <i class="fa fa-phone"></i>
+  </a>
+
+</div>
+
+
+<style>
+ /* Floating WhatsApp + Call Buttons */
+.floating-icons {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 9999;
+}
+
+.float-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #25d366;  
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+}
+
+.float-btn.call {
+  background: #007bff;
+}
+
+.float-btn:hover {
+  transform: scale(1.12);
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Large Desktop */
+@media (max-width: 1200px) {
+  .float-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
+}
+
+/* Medium Desktop / Laptop */
+@media (max-width: 992px) {
+  .float-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .floating-icons {
+    bottom: 80px;
+    right: 15px;
+    gap: 12px;
+  }
+  .float-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+  }
+}
+
+/* Small Tablet / Large Phone */
+@media (max-width: 600px) {
+  .float-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .float-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 360px) {
+  .float-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+</style>
+
+
+
+<script>
+  // Call Button Desktop Behavior
+const callBtn = document.getElementById("callBtn");
+
+function isMobile() {
+  return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
+
+callBtn.addEventListener("click", function(e) {
+  if (!isMobile()) {
+    e.preventDefault(); // mobile dialer open नहीं होगा
+    alert("Call: 9752830472");
+  }
+});
+
+</script>
+
+
+
+
+
+
+
+
+<!-- footer-section -->
+<footer class="solar-footer">
+  <div class="footer-container">
+
+    <div class="footer-logo-address">
+      <img src="img/logo.png" style="cursor: pointer;" onclick="location.href='index.html'" alt="Solar Company Logo" class="footer-logo" />
+    </div>
+
+    <div class="footer-links">
+      <h4>Information</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="residential.html">Residential Solar Solutions</a></li>
+          <li><a href="commercial.html">Commercial Solar Solutions</a></li>
+          <li><a href="industrial.html">Industrial Solar Solutions</a></li>
+        <li><a href="subsidy.html">Subsidy</a></li>
+        <li><a href="gallery.html">Gallery </a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <ul>
+        <li style="cursor: pointer;" onclick="location.href='tel:+919752830472'"><i class="fa fa-phone"></i> +91 9752830472</li>
+        <li style="cursor: pointer;" onclick="location.href='mailto:info@mpsolartech.com'"><i class="fa fa-envelope"></i> info@mpsolartech.com</li>
+        <li><i class="fa fa-map-marker"></i>736, AR MAHALAXMI NAGAR INDORE 452010</li>
+      </ul>
+    </div>
+
+    <div class="footer-follow">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61584781773387"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mpsolartech?igsh=bW0zcTRqeGxvNjF0"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/8871622893"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p style="cursor: pointer;" onclick="location.href='//tssgtech.com/'">© 2025 All Rights Reserved | Design and developed by Tssg-Tech</p>
+  </div>
+</footer>
+
+
+
+  <!----------------------------------- javascript------------------------------------------->
+  <script>
+/* NAVBAR SHOW ON SCROLL */
+let navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
+  navbar.style.top = window.scrollY > 100 ? "20px" : "-120px";
+});
+
+/* SIDEBAR OPEN/CLOSE */
+let menuIcon = document.getElementById("menu-icon");
+let sidebar = document.getElementById("sidebar");
+let closeBtn = document.querySelector(".close-btn");
+
+menuIcon.onclick = () => sidebar.style.left = "0px";
+closeBtn.onclick = () => sidebar.style.left = "-300px";
+
+/* DROPDOWN (Desktop + Mobile) */
+document.querySelectorAll(".dropdown-toggle").forEach(btn => {
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    let menu = this.nextElementSibling;
+    menu.classList.toggle("show");
+  });
+});
+
+/* CLICK OUTSIDE CLOSE */
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".dropdown")) {
+    document.querySelectorAll(".dropdown-menu").forEach(menu => {
+      menu.classList.remove("show");
+    });
+  }
+});
+
+
+
+/*  home banner SLIDER */
+let index = 0;
+let slides = document.querySelectorAll(".slide");
+
+function showSlide(n) {
+  slides.forEach(slide => slide.classList.remove("active"));
+  slides[n].classList.add("active");
+}
+
+function nextSlide() {
+  index = (index + 1) % slides.length;
+  showSlide(index);
+}
+
+function prevSlide() {
+  index = (index - 1 + slides.length) % slides.length;
+  showSlide(index);
+}
+
+setInterval(nextSlide, 2000);
+
+
+
+
+
+
+
+// HOME PAGE GALLERY ANIMATION
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const images = document.querySelectorAll(".gallery-img");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target); // animation once only
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+
+    images.forEach(img => observer.observe(img));
+
+});
+
+
+
+// Testinomial slider 
+const track = document.getElementById("testiTrack");
+const cardWidth = 345;
+let position = 0;
+
+function slideRight() {
+  position -= cardWidth;
+
+  if (Math.abs(position) >= track.scrollWidth / 2) {
+    position = 0;
+  }
+
+  track.style.transform = `translateX(${position}px)`;
+}
+
+function slideLeft() {
+  position += cardWidth;
+
+  if (position > 0) {
+    position = -track.scrollWidth / 2 + cardWidth;
+  }
+
+  track.style.transform = `translateX(${position}px)`;
+}
+
+// Auto Slide (Left)
+setInterval(() => {
+  slideRight();
+}, 2500);
+  </script>
+</body>
+</html>

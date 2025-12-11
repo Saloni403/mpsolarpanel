@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MP SOLAR TECH – Home</title>
+
+  <!--icon cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header id="navbar">
+  <div class="logo">
+    <img src="img/logo.png" alt="MP Solar Tech">
+  </div>
+
+  <nav class="nav-links">
+    <ul>
+      <li><a href="index.html">Home</a></li>  
+      <li><a href="about.html">About Us</a></li>
+
+      <!-- DROPDOWN -->
+      <li class="dropdown">
+        <a href="our-services.html" class="dropdown-toggle">
+          Our Services <i class="fa-solid fa-angle-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a href="residential.html">Residential Solar Solutions</a></li>
+          <li><a href="commercial.html">Commercial Solar Solutions</a></li>
+          <li><a href="industrial.html">Industrial Solar Solutions</a></li>
+        </ul>
+      </li>
+
+      <li><a href="subsidy.html">Subsidy</a></li>
+      <li><a href="gallery.html">Gallery </a></li>
+
+      <!-- Corrected link to local calculator page -->
+      <li><a href="calculator.html">Calculator</a></li>
+
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HAMBURGER -->
+  <div id="menu-icon" class="menu-icon">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</header>
+
+
+<!-- SIDEBAR MENU -->
+<div id="sidebar" class="sidebar">
+  <i class="fa-solid fa-xmark close-btn"></i>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>  
+    <li><a href="about.html">About Us</a></li>
+
+    <li class="dropdown">
+      <a class="dropdown-toggle">
+        Our Services <i class="fa-solid fa-angle-down"></i>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="residential.html">Residential Solar Solutions</a></li>
+        <li><a href="commercial.html">Commercial Solar Solutions</a></li>
+        <li><a href="industrial.html">Industrial Solar Solutions</a></li>
+      </ul>
+    </li>
+
+    <li><a href="subsidy.html">Subsidy</a></li>
+    <li><a href="gallery.html">Gallery </a></li>
+
+    <!-- Corrected sidebar link to local calculator page -->
+    <li><a href="calculator.html">Calculate Solar</a></li>
+
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</div>
+
+
+
+
+
+<!-- Commercial Solar Hero Section -->
+<section class="commercial-hero-section">
+    <div class="commercial-overlay"></div>
+    <div class="commercial-content">
+        <h1>Commercial Solar Solutions</h1>
+    </div>
+</section>
+
+
+
+
+<!-- Commercial Solar Section -->
+<section class="commercial-section">
+
+    <div class="commercial-container">
+
+        <!-- LEFT SIDE CONTENT -->
+        <div class="commercial-content">
+            <h3>Commercial Solar Solutions</h3>
+            <p>
+                Our commercial solar solutions are designed to help businesses reduce operational costs,
+                achieve energy independence, and contribute to a sustainable future. Whether you run a small
+                enterprise or a large industrial facility, solar energy can significantly lower electricity expenses.
+            </p>
+
+            <p>
+                From large-scale rooftop installations to ground-mounted solar systems, we deliver high-performance,
+                customized solar solutions tailored to your commercial needs. With professional engineering, seamless
+                installation, and long-term maintenance support, we ensure reliable and efficient power for your business.
+            </p>
+        </div>
+
+        <!-- RIGHT SIDE IMAGE -->
+        <div class="commercial-image">
+            <img src="img/com.jpeg" alt="Commercial Solar System">
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Feature section -->
+<section class="features-section">
+
+    <h2 class="title">Single Investment. Endless Rewards.</h2>
+
+    <div class="features-container">
+        
+        <div class="feature-box">
+            <i class="fa-regular fa-lightbulb"></i>
+            <p>Slash Energy Expenses</p>
+        </div>
+
+        <div class="feature-box">
+            <i class="fa-solid fa-gear"></i>
+            <p>Minimal Maintenance</p>
+        </div>
+
+        <div class="feature-box">
+            <i class="fa-solid fa-users"></i>
+            <p>User-Friendly for All</p>
+        </div>
+
+        <div class="feature-box">
+            <i class="fa-solid fa-leaf"></i>
+            <p>Environmentally Friendly</p>
+        </div>
+
+    </div>
+
+    <div class="btn-center">
+        <a href="contact.html" class="enquiry-btn">Enquiry Now</a>
+    </div>
+
+</section>
+
+
+ <!-- rooftop/ground section -->
+<div class="card-container">
+
+    <!-- Rooftop Card -->
+    <div class="card" onclick="toggleCard(this)">
+        <img src="img/roof.jpg" class="card-img" alt="Rooftop Solar">
+        <h3>Rooftop Solar Panel</h3>
+        <div class="card-content">
+            <p>
+                Rooftop solar systems are installed on commercial building rooftops 
+                and can be easily integrated with the existing electrical setup.  
+                They are cost-effective because net-metering reduces electricity bills.  
+                Installation is quick and unused rooftop space is efficiently utilized 
+                to generate clean and sustainable energy.
+            </p>
+        </div>
+    </div>
+
+    <!-- Ground Mount Card -->
+    <div class="card" onclick="toggleCard(this)">
+        <img src="img/ground.jpg" class="card-img" alt="Ground Mount Solar">
+        <h3>Ground Mount Solar</h3>
+        <div class="card-content">
+            <p>
+                Ground-mounted solar systems are installed on open land where angle,  
+                direction, and spacing can be optimized for maximum energy production.  
+                Ideal for large commercial & industrial projects with higher power output,  
+                easy maintenance, and future expandability.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<!-- Floating WhatsApp & Call Buttons -->
+<div class="floating-icons">
+  
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/8871622893" target="_blank" class="float-btn whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Call Button -->
+  <a href="tel:+919752830472" class="float-btn call" id="callBtn">
+    <i class="fa fa-phone"></i>
+  </a>
+
+</div>
+
+
+<style>
+ /* Floating WhatsApp + Call Buttons */
+.floating-icons {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 9999;
+}
+
+.float-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #25d366;  
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+}
+
+.float-btn.call {
+  background: #007bff;
+}
+
+.float-btn:hover {
+  transform: scale(1.12);
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Large Desktop */
+@media (max-width: 1200px) {
+  .float-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
+}
+
+/* Medium Desktop / Laptop */
+@media (max-width: 992px) {
+  .float-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .floating-icons {
+    bottom: 80px;
+    right: 15px;
+    gap: 12px;
+  }
+  .float-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+  }
+}
+
+/* Small Tablet / Large Phone */
+@media (max-width: 600px) {
+  .float-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .float-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 360px) {
+  .float-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+</style>
+
+
+
+<script>
+  // Call Button Desktop Behavior
+const callBtn = document.getElementById("callBtn");
+
+function isMobile() {
+  return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
+
+callBtn.addEventListener("click", function(e) {
+  if (!isMobile()) {
+    e.preventDefault(); // mobile dialer open नहीं होगा
+    alert("Call: 9752830472");
+  }
+});
+
+</script>
+
+
+
+
+
+
+<!-- footer-section -->
+<footer class="solar-footer">
+  <div class="footer-container">
+
+    <div class="footer-logo-address">
+      <img src="img/logo.png" style="cursor: pointer;" onclick="location.href='index.html'" alt="Solar Company Logo" class="footer-logo" />
+    </div>
+
+    <div class="footer-links">
+      <h4>Information</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="residential.html">Residential Solar Solutions</a></li>
+          <li><a href="commercial.html">Commercial Solar Solutions</a></li>
+          <li><a href="industrial.html">Industrial Solar Solutions</a></li>
+        <li><a href="subsidy.html">Subsidy</a></li>
+        <li><a href="gallery.html">Gallery </a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <ul>
+        <li style="cursor: pointer;" onclick="location.href='tel:+919752830472'"><i class="fa fa-phone"></i> +91 9752830472</li>
+        <li style="cursor: pointer;" onclick="location.href='mailto:info@mpsolartech.com'"><i class="fa fa-envelope"></i> info@mpsolartech.com</li>
+        <li><i class="fa fa-map-marker"></i>736, AR MAHALAXMI NAGAR INDORE 452010</li>
+      </ul>
+    </div>
+
+    <div class="footer-follow">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61584781773387"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mpsolartech?igsh=bW0zcTRqeGxvNjF0"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/8871622893"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p style="cursor: pointer;" onclick="location.href='//tssgtech.com/'">© 2025 All Rights Reserved | Design and developed by Tssg-Tech</p>
+  </div>
+</footer>
+
+
+
+
+
+
+<script>
+  
+    /* NAVBAR SHOW ON SCROLL */
+let navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
+  navbar.style.top = window.scrollY > 100 ? "20px" : "-120px";
+});
+
+/* SIDEBAR OPEN/CLOSE */
+let menuIcon = document.getElementById("menu-icon");
+let sidebar = document.getElementById("sidebar");
+let closeBtn = document.querySelector(".close-btn");
+
+menuIcon.onclick = () => sidebar.style.left = "0px";
+closeBtn.onclick = () => sidebar.style.left = "-300px";
+
+/* DROPDOWN (Desktop + Mobile) */
+document.querySelectorAll(".dropdown-toggle").forEach(btn => {
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    let menu = this.nextElementSibling;
+    menu.classList.toggle("show");
+  });
+});
+
+/* CLICK OUTSIDE CLOSE */
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".dropdown")) {
+    document.querySelectorAll(".dropdown-menu").forEach(menu => {
+      menu.classList.remove("show");
+    });
+  }
+});
+
+
+
+
+
+// rooftop/grounded 
+function toggleCard(card) {
+    document.querySelectorAll(".card").forEach(c => {
+        if (c !== card) c.classList.remove("open"); // close others
+    });
+    card.classList.toggle("open");
+}
+
+</script>
+
+
+</body>
+</html>
