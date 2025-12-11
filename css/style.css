@@ -1133,12 +1133,12 @@ nav ul li a:hover {
 .enquiry-form input,
 .enquiry-form textarea {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
   outline: none;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .send-btn {
